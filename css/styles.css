@@ -510,27 +510,6 @@ body {
   border: none;
   border-radius: 4px;
 }
-<div class="footer-subscribe">
-  <p class="footer-subscribe-text">Subscribe</p>
-
-  <form class="subscribe-form">
-    <label class="visually-hidden" for="subscribe-email">
-      Email
-    </label>
-
-    <input
-      type="email"
-      name="subscribe_email"
-      id="subscribe-email"
-      class="subscribe-input"
-      placeholder="E-mail"
-    />
-
-    <button type="submit" class="subscribe-button">
-      Subscribe
-      <svg width="24" height="24" class="subscribe-icon">
-        <use href="./images/icons.svg#send"></use>
-      </svg>
-    </button>
-  </form>
-</div>
+.footer-subscribe {
+  margin-left: auto;
+}
