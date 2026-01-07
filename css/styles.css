@@ -300,6 +300,7 @@ body {
 .footer-container {
   display: flex;
   align-items: baseline;
+  gap: 80px;
 }
 
 .footer-info {
